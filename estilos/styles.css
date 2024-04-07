@@ -22,6 +22,8 @@ main{
     /*obsserve que devemos colocar o position relative no pai*/
     position: relative;
     height: 100vh;
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 section#phone{
@@ -43,4 +45,39 @@ iframe#tela{
     height: 472px;
     width: 267px;
 }
+
+
+section#redes-sociais img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.725);
+}
+
+
+section#redes-sociais{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+section#redes-sociais a :hover{
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.529);
+}
+
+
+section  a.flex-item1{
+    order: 1;
+}
+
+
+section  a.flex-item3{
+    order: 1;
+}
+
+section  a.flex-item2{
+    order: -1;
+}
+
 
