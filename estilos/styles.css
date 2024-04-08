@@ -62,10 +62,6 @@ section#redes-sociais{
     margin-right: 20px;
 }
 
-section#redes-sociais a :hover{
-    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.825);
-}
-
 
 section  a.flex-item1{
     order: 1;
